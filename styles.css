@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+}
+.webStyleGuide{
+  text-align:center;
+}
+.basic-nav > li{
+  display:inline;
+  color: blue;
+  text-decoration:underline;
+  padding: 2px;
+}
+.basic-nav a:hover{
+  color:red;
+}
+.basic-nav{
+  padding:0;
+  text-align:center;
+}
+.colors p{
+  display:inline-block;
+  width: 30%;
+  text-align:center;
+  padding:10px;
+  margin: 1%;
+  color:white;
+}
+.colors{
+  border: 1px dotted #4A90E2;
+  padding: 10px;
+}
+.primeBlue{
+  background-color:#4A90E2;
+}
+.colors p.beige{
+  background-color:#F5F0E6;
+  color:black;
+}
+.darkBlue{
+  background-color:#2C3E50;
+}
+.gray{
+  background-color:#BDC3C7;
+}
+.coral{
+  background-color:#E67E22;
+}
+.softGreen{
+  background-color:#27AE60;
+}
+.fonts{
+  border: 1px dotted #4A90E2;
+  padding:10px;
+}
+.fonts div{
+  display:inline-block;
+  width:45%;
+  vertical-align: top; /*so that they are alligned next to each other starting at the same place */
+}
+body > div{
+  margin:30px;
+}
+.merriweather{
+  font-family: Merriweather;
+}
+.work-sans{
+  font-family:"Work sans";
+}
+.raleway{
+  font-family:Raleway;
+}
+.bold{
+  font-weight:bold;
+}
+.italic{
+  font-style:italic;
+}
+.fontTitle{
+  text-decoration:underline;
+}
+.mainPage{
+  font-weight:600;
+  font-size:30px;
+  font-family:Merriweather;
+}
+.subheading{
+  font-weight: 500;
+  font-size:20px;
+  font-family: "Work Sans";
+}
+.paragraph{
+  font-weight:400;
+  font-size:15px;
+  font-family:Raleway;
+}
+.text-styles{
+  border: 1px dotted #4A90E2;
+  padding:10px;
+}
